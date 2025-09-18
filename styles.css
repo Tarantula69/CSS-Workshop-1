@@ -2,11 +2,9 @@ nav {
     display: inline;
     margin-left: 35%;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
 }
-
 nav a {
     background: rgba(22, 25, 241, 0.74);
     padding: 12px 16px 12px 16px;
@@ -25,7 +23,6 @@ img {
     width: 500px;
     margin-left: 700px;
 }
-
 h1 {
     text-align: center;
     font-size: 50px;
@@ -36,11 +33,16 @@ h2 {
     font-size: 30px;
     color: rgb(220, 3, 228);
 }
+table, th, td , tr {
+                
+    border: 2px solid black;
+    width: 35%; 
+    margin-left: 600px;
+    text-align: center;
+    padding: 5px;
+    
+    
 
-table {
-    margin: auto;
-    border-collapse: collapse;
-    width: 80%;
 }
 audio {
     display: block;
@@ -54,22 +56,17 @@ p {
 section {
     margin: 50px 0;
 }   
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #f1f1f1;
-    margin-top: 50px;
-}
 form {
     text-align: center;
     margin-top: 20px;
 }
-input[type="text"], input[type="email"], textarea {
+textarea {
     width: 300px;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    text-align: justify;
 }
 input[type="submit"] {
     background-color: #4CAF50;
@@ -78,6 +75,7 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: justify;
 }
 li , ul , ol {
     font-size: 20px;
@@ -90,10 +88,10 @@ textarea {
     padding: 20px;
     border-radius: 10px;
     width: 50%;
-    margin-left: 100px;
+    margin-left: 410px;
 }
 button {
-    background-color: #008CBA;
+    background-color: green;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -101,4 +99,10 @@ button {
     cursor: pointer;
     font-size: 16px;
     margin-left: 50%;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-top: 50px;
 }
